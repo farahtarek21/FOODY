@@ -1,0 +1,48 @@
+.nav-item{
+    margin-top: 3%;
+    padding-right: 6% !important;
+}
+.p-1 {
+    padding: 0.25rem!important;
+}
+nav li{
+    text-decoration: dotted;
+}
+.button{
+
+margin-top: -1%;
+}
+.food-price{
+    color: #ff0000 !important;
+}
+
+.bay{
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    background: #F31616;
+    border-color: #F31616;
+    border-radius: 6px;
+    text-decoration: none !important;
+    color: rgb(255, 255, 255);
+}
+.bay :hover{
+    background: #f3161600;
+    color: black;
+    border-color: #f31616;
+}
+.food-btn{
+    font-weight: 700;
+    font-size: x-large;
+    color: #000;
+}
+.food-btn:hover{
+    color: #F31616;
+    text-decoration: none;
+}
+footer {
+    height: 80px;
+    background-color: #222;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;}

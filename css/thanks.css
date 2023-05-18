@@ -1,0 +1,45 @@
+/*thanks*/
+
+.back {
+    text-align: center;
+    padding: 40px 0;
+    background: #EBF0F5;
+  }
+  .carda {
+      color:  #F31616;
+      font-family: 'Calibri';
+      font-weight: 400;
+      font-size: 50px;
+      margin-bottom: 10px;
+    
+    }
+    .thanks {
+      color: #404F5E;
+      font-family: 'Calibri';
+      font-size:20px;
+      margin: 0;
+    }
+  i {
+    color:  #F31616;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+  .carda {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .track{
+    text-decoration: none;
+    color: #131212e0;
+    font-size: 25px;
+  }
+  .track:hover{
+    text-decoration: none !important;
+    color:#F31616 !important;
+  }
+  /*end of thanks*/
