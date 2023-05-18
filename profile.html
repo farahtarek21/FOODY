@@ -1,0 +1,336 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOODY</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/momo.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+
+  </head>
+  <body>
+     <!-- nav bar -->
+     <nav class="navbar navbar-expand-lg navbar-light  text-dark">
+      <a class="navbar-brand mr-5" href="#">F<span>oo</span>dy</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-5 p-1">
+          <li class="nav-item active pr-3">
+            <a class="nav-link" id="nav-link-1" href="momo.html"><u>Home </u> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item pr-4">
+            <a class="nav-link" href="#about">About </a>
+          </li>
+          <li class="nav-item pr-4">
+              <a class="nav-link" href="#food-menu">Menu</a>
+            </li>
+            <li class="nav-item pr-4">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item pr-4">
+                
+                <i class="fas fa-user-circle fa-lg" style="margin-top:11px ;"></i>
+             </li>
+        </ul>
+       </div>
+    </nav>
+           <!-- end of nav bar -->
+<!--home section-->
+             <!--home section-->
+             <div class="media">
+                <div class="media-body">
+                  
+                  <p class="ho">It’s not just<br>
+                                food, It’s an <br> 
+                          <span class="uo">Experience</span>.</p>
+                </div>
+                <div class="buttons">
+
+                  <div class="action_btn">
+      
+                 <a href="#food-menu" > <button name="submit" class="action_btn1 submit" type="submit" value="Save" onclick="myFunction()">Order Now</button> </a>
+                 <a href="#food" >     <button name="submit" class="action_btn2 submit" type="submit" value="Save" onclick="myFunction()">View menu</button></a>
+      
+                  <p id="saved"></p>
+      
+                  </div>
+      
+              </div>
+              </div>
+                <img class="imagess" src="images/home pic.jfif" class="ml-3" alt="...">
+              </di>
+           </div> 
+
+
+    <!--about -->
+ 
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h2>Welcome to F<span>OO</span>dy! We're a team of food for 10 years alover the world</h2>
+          <p>
+            Our story began with a simple idea -to create a platform
+            that would connect food lovers from around the world 
+            and allow them  to experience unique and delicious 
+            dishes from the comfort of their own homes.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="images/flour.jpg" alt="food" />
+        </div>
+      </div>
+    </section>
+
+    <!--food menu-->
+    <section id="food">
+      <h2>Types of food</h2>
+      <div class="food-container container">
+        <div class="food-type fruite">
+          <div class="img-container">
+            <img style="border-radius: 153px 153px 0px 0px;" src="images/salad.jpg" alt="error" />
+            <div class="img-content">
+             
+              <h3 style="font-size: 16px;">SALAD<br><br><br>
+                
+                <p style="font-size: medium;"> with in 200 calories </p>
+                 </h3>
+            </div>
+          </div>
+        </div>
+        <div class="food-type vegetable">
+          <div class="img-container">
+            <img style="border-radius: 153px 153px 0px 0px;" src="images/pizza.jpg" alt="error" />
+            <div class="img-content">
+              <h3 style="font-size: 16px;">PIZZA <br><br><br>
+                
+               <p style="font-size: medium;"> with in 500 calories / slice only</p>
+                </h3>
+              
+            </div>
+          </div>
+        </div>
+        <div class="food-type grin">
+          <div class="img-container">
+            <img  style="border-radius: 153px 153px 0px 0px;" src="images/burgerr.jpg" alt="error" />
+            <div class="img-content">
+              <h3 style="font-size: 16px;">BURGER <br><br><br><br>
+                
+                <p style="font-size: medium;"> with in 100 calories </p>
+                 </h3>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--order-->
+    <section id="food-menu">
+      <h2 class="food-menu-heading">Food Menu</h2>
+      <div class="food-menu-container container">
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="images/f1.jfif" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">PIZZA</h2>
+            <p style="font-size: 20px; color: #000;"  ><span style="font-size: 18px; color: #000;">
+              Taste the clear bright 
+              deliciousness  
+               spinach alfredo.
+              </span><br> 
+              <span style="font-weight: bold;  color: #000;">ingredients:</span><br>
+              Chicken, tomatoes,
+               mushrooms, 
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+            <a href="payment.html" class="food-btn">ORDER NOW</a>
+          </div>
+        </div>
+
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img
+              src="images/f2.jfif"
+              alt="error"
+            />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">GREEK SALAD </h2>
+            <p style="font-size: 20px; color: #000;"  ><span style="font-size: 18px; color: #000;">
+              full of fresh
+             Mediterranian flavour 
+             for thar sun and blue sky ..</span><br> 
+              <span style="font-weight: bold;  color: #000;">ingredients:</span><br>
+               lettuce , red cabbage , 
+carrot, feta cheese
+            </p>
+            <p class="food-price">Price: &#8377; 130 </p>
+            <a href="payment.html" class="food-btn">ORDER NOW</a>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="images/f3.jfif" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">BAFFLO BURGER</h2>
+            <p style="font-size: 20px; color: #000;"  ><span style="font-size: 18px; color: #000;">
+              Bacon Mushroom Jack with spinach and Alfredo sauce.
+             </span><br> 
+
+              <span style="font-weight: bold;  color: #000;">ingredients:</span><br>
+               Chicken, tomatoes
+
+            </p>
+            <p class="food-price"  >Price: &#8377; 300</p> 
+            <a href="payment.html" class="food-btn">ORDER NOW</a>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="images/f4.jfif" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">SODA</h2>
+            <p>
+              pepsi / coca / redbull / fresh juice
+            </p>
+            <p class="food-price">Price: &#8377; 50</p>
+            <a href="payment.html" class="food-btn">ORDER NOW</a>
+          </div>
+        </div>
+        
+    </section>
+    <section id="testimonials">
+      <h2 class="testimonial-title">What Our Customers Say</h2>
+      <div class="testimonial-container container">
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
+              <p class="customer-name">Nate</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+            voluptas cupiditate aspernatur odit doloribus non.
+          </p>
+         
+        </div>
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img
+                src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg"
+                alt=""
+              />
+              <p class="customer-name">Emilly</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+            voluptas cupiditate aspernatur odit doloribus non.
+          </p>
+         
+        </div>
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
+              <p class="customer-name">Rayan</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+            voluptas cupiditate aspernatur odit doloribus non.
+          </p>
+         
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-container container">
+        <div class="contact-img">
+          <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+        </div>
+
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="E-Mail" />
+          <textarea
+            cols="30"
+            rows="6"
+            placeholder="Type Your Message"
+          ></textarea>
+          <a href="#home" class="btn btn-primary" style="border-color: #00000000;">Submit</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Thank you  F<span>OO</span>dy  team <i class="fa thin fa-heart"></i></p>
+  </footer>
+  </body>
+  <!-- 
+    .................../ JS Code for smooth scrolling /...................... -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+  </script>
+</html>
